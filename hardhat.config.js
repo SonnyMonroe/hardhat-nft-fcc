@@ -12,7 +12,8 @@ require("hardhat-deploy")
 
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || ""
 const GOERLI_RPC_URL =
-    process.env.GOERLI_RPC_URL || "https://eth-goerli.alchemyapi.io/v2/your-api-key"
+    process.env.GOERLI_RPC_URL ||
+    "https://eth-goerli.g.alchemy.com/v2/ZpjCzMy4J-BuG2A5MF8k1i7oJkKgbZXk"
 const PRIVATE_KEY = process.env.PRIVATE_KEY || ""
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || ""
 
